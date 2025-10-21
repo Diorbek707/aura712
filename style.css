@@ -1,0 +1,164 @@
+body {
+  margin: 0;
+  font-family: "Karla", sans-serif;
+  color: #2b2b2b;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5%;
+  background: #fff;
+}
+
+.logo {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+}
+
+nav a {
+  margin-right: 2rem;
+  text-decoration: none;
+  color: #555;
+  font-weight: 700;
+}
+
+.btn, .btn-outline {
+  border: 2px solid #2b2b2b;
+  padding: 0.6rem 1.5rem;
+  background: transparent;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.btn {
+  border: none;
+  color: white;
+  background: black;
+}
+
+.btn-outline { 
+  color: black;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  background: #340b46;
+  color: white;
+  padding: 4rem 5%;
+  align-items: center;
+}
+
+.color {
+  color: black;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.hero-text h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 2rem;
+  color: #d9d9d9;
+}
+
+.hero-img {
+  width: 1004px;
+  height: 670px;
+  left: 488px;
+  text-align: center;
+}
+
+.hero-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.different {
+  padding: 4rem 5%;
+  text-align: center;
+}
+
+.different h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.feature {
+  max-width: 250px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.info {
+  background: #21133d;
+  color: white;
+  text-align: center;
+  padding: 3rem 5%;
+text-align: center;
+}
+
+.btn-outline {
+color: white;
+
+
+
+}
+
+.info h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background: #f6f6f6;
+  padding: 3rem 5%;
+  font-size: 0.9rem;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1rem;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.footer-bottom div {
+  min-width: 150px;
+}
+
+.footer-bottom a {
+  display: block;
+  text-decoration: none;
+  color: #555;
+  margin-top: 0.3rem;
+}
